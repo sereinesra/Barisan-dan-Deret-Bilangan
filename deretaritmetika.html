@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Barisan dan Deret Bilangan</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!--Boxiocns CDN Link-->
+	<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+
+<style type="text/css">
+			.RumusDeretAritmetika{
+				width: 60%;
+				height: 35px;
+				background: lightgrey;
+				text-align: center;
+				padding: 5px;
+			}
+			.TempatDuduk{
+				float: right;
+				margin-left: 50px;
+			}
+			.hapus-float{
+				clear: both;
+			}
+
+</style>
+
+
+<body style="background: lightcyan; margin-left: 425px; margin-right: 100px; margin-bottom: 100px;">
+		<div class="sidebar">
+		<div class="logo-details">
+			<i class='bx bxs-component'></i>
+			<span class="logo_name">Barisan dan Deret Bilangan</span>
+		</div>
+		<ul class="nav-links">
+			<li>
+				<a href="BarisanDeretBilangan.html">
+					<i class='bx bxs-home-alt-2'></i>
+					<span class="link_name">Beranda</span>
+				</a>
+				<ul class="sub-menu blank">
+					<li><a class="link_name" href="BarisanDeretBilangan.html">Beranda</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="tujuanpembelajaran.html">
+					<i class='bx bxs-message-dots'></i>
+					<span class="link_name">Tujuan Pembelajaran</span>
+				</a>
+				<ul class="sub-menu blank">
+					<li><a class="link_name" href="tujuanpembelajaran.html">Tujuan Pembelajaran</a></li>
+				</ul>
+			</li>
+			<li>
+				<div class="iocn-link">
+					<a href="polabilangan.html">
+						<i class='bx bxs-pie-chart-alt-2'></i>
+						<span class="link_name">Bab I: Pola Bilangan</span>
+					</a>
+					<i class='bx bxs-chevron-down arrow'></i>
+				</div>
+				<ul class="sub-menu">
+					<li><a class="link_name" href="polabilangan.html">Pola Bilangan</a></li>
+					<li><a href="polabilanganganjil.html">Pola Bilangan Ganjil</a></li>
+					<li><a href="polabilangangenap.html">Pola Bilangan Genap</a></li>
+					<li><a href="polabilanganpersegi.html">Pola Bilangan Persegi</a></li>
+					<li><a href="polabilanganpersegipanjang.html">Pola Bilangan Persegi Panjang</a></li>
+					<li><a href="polabilangansegitiga.html">Pola Bilangan Segitiga</a></li>
+					<li><a href="polabilanganfibonacci.html">Pola Bilangan Fibonacci</a></li>
+					<li><a href="latihanpola.html">Latihan</a></li>
+				</ul>
+			</li>
+			<li>
+				<div class="iocn-link">
+					<a href="barisanbilangan.html">
+						<i class='bx bxs-bar-chart-alt-2' ></i>
+						<span class="link_name">Bab II: Barisan Bilangan</span>
+					</a>
+					<i class='bx bxs-chevron-down arrow'></i>
+				</div>
+				<ul class="sub-menu">
+					<li><a class="link_name" href="barisanbilangan.html">Barisan Bilangan</a></li>
+					<li><a href="barisanaritmetika.html">Barisan Aritmetika</a></li>
+					<li><a href="barisangeometri.html">Barisan Geometri</a></li>
+					<li><a href="latihanbarisan.html">Latihan</a></li>
+				</ul>
+			</li>
+			<li>
+				<div class="iocn-link">
+					<a href="deretbilangan.html">
+						<i class='bx bxs-chart'></i>
+						<span class="link_name">Bab III: Deret Bilangan</span>
+					</a>
+					<i class='bx bxs-chevron-down arrow'></i>
+				</div>
+				<ul class="sub-menu">
+					<li><a class="link_name" href="deretbilangan.html">Deret Bilangan</a></li>
+					<li><a href="deretaritmetika.html">Deret Aritmetika</a></li>
+					<li><a href="deretgeometri.html">Deret Geometri</a></li>
+					<li><a href="latihanderet.html">Latihan</a></li>
+				</ul>
+			</li>
+			<li>
+				<div class="iocn-link">
+					<a href="">
+						<i class='bx bxs-video'></i>
+						<span class="link_name">Video</span>
+					</a>
+					<i class='bx bxs-chevron-down arrow'></i>
+				</div>
+				<ul class="sub-menu">
+					<li><a class="link_name" href="">Video</a></li>
+					<li><a href="videopola.html">Pola Bilangan</a></li>
+					<li><a href="videoaritmetika.html">Barisan dan Deret Aritmetika</a></li>
+					<li><a href="videogeometri.html">Barisan dan Deret Geometri</a></li>
+				</ul>
+			</li>
+			<li>
+				<div class="iocn-link">
+					<a href="">
+						<i class='bx bx-file-find'></i>
+						<span class="link_name">Rangkuman</span>
+					</a>
+					<i class='bx bxs-chevron-down arrow'></i>
+				</div>
+				<ul class="sub-menu">
+					<li><a class="link_name" href="">Rangkuman</a></li>
+					<li><a href="rangkumanpola.html">Pola Bilangan</a></li>
+					<li><a href="rangkumanbarisan.html">Barisan Bilangan</a></li>
+					<li><a href="rangkumanderet.html">Deret Bilangan</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="penerapan.html">
+					<i class='bx bxs-notepad'></i>
+					<span class="link_name">Penerapan</span>
+				</a>
+				<ul class="sub-menu blank">
+					<li><a class="link_name" href="penerapan.html">Penerapan</a></li>
+				</ul>
+			</li>
+			<li>
+				<div class="iocn-link">
+					<a href="">
+						<i class='bx bx-navigation'></i>
+						<span class="link_name">Evaluasi</span>
+					</a>
+					<i class='bx bxs-chevron-down arrow'></i>
+				</div>
+				<ul class="sub-menu">
+					<li><a class="link_name" href="">Evaluasi</a></li>
+					<li><a href="evaluasipola.html">Pola Bilangan</a></li>
+					<li><a href="evaluasibarisan.html">Barisan Bilangan</a></li>
+					<li><a href="evaluasideret.html">Deret Bilangan</a></li>
+				</ul>
+			</li>
+		</ul>
+		<li>
+		<div class="profile-details">
+			<div class="profile-content">
+				<img src="Asma.jpg" alt="profile ">
+			</div>
+			<div class="name-departmen">
+				<div class="profile_name">Asma</div>
+				<div class="departmen">Pendidikan Matematika</div>
+			</div>
+			<i class='bx bx-log-out'></i>
+		</div>
+		</li>
+	</div>
+
+	<section class="home-section">
+		<div class="home-content">
+			<i class='bx bx-menu'></i>
+			<span class="text"></span>
+		</div>
+	</section>
+
+	<script>
+		let arrow = document.querySelectorAll(".arrow");
+		for (var i = 0; i < arrow.length; i++) {
+			arrow[i].addEventListener("click", (e)=>{
+		let arrowParent = e.target.parentElement.parentElement;
+		arrowParent.classList.toggle("showMenu");
+		});
+		}
+
+		let sidebar = document.querySelector(".sidebar");
+		let sidebarBtn = document.querySelector(".bx-menu");
+		console.log(sidebarBtn)
+		sidebarBtn.addEventListener("click", ()=>{
+			sidebar.classList.toggle("close");
+		});
+	</script>
+
+	<!--Beranda-->
+	<section id="beranda">
+		<div class="container">
+			<div class="col-3">
+		<br>
+			<h2 style= "text-align: center;">DERET ARITMETIKA</h2>
+		<br>
+		<p style= "text-align: justify;">Perhatikanlah pola barisan aritmetika di bawah ini.</p>
+		<p style= "text-align: center;">4, 9, 14, 19, … , 𝑈𝑛</p>
+		<p style= "text-align: justify;">Apabila barisan aritmetika tersebut ingin dijumlahkan maka terbentuklah pola deret aritmetika sebagai berikut.</p>
+		<p style= "text-align: center;">4 + 9 + 14 + 19 + … + 𝑈𝑛</p>
+		<p style= "text-align: justify;">Dari contoh di atas, dapat disimpulkan bahwa deret aritmetika adalah <strong>penjumlahan suku-suku dari barisan aritmetika.</strong></p>
+		<br>
+		<hr>
+		<br>
+
+		<h3>CONTOH SOAL</h3>
+		<br>
+		<ol style="margin-left: 15px;" type="1">
+			<li style= "text-align: justify;">Tentukan pola deret aritmetika dari suatu barisan yang memiliki suku pertama 7 dan beda 2.</li>
+			<p><strong>Jawab:</strong></p>
+			<p>𝑎 = 7, 𝑏 = 2</p>
+			<ul style="margin-left: 17px;">
+				<li>Pola barisan aritmetika:</li>
+				<p>7, 9, 11, 13, 15, 17, 19, 21, 𝑈𝑛</p>
+				<li>Pola deret aritmetika:</li>
+				<p>7 + 9 + 11 + 13 + 15 + 17 + 19 + 21 + 𝑈𝑛</p>
+			</ul>
+		</ol>
+			<br>
+			<hr>
+			<br>
+
+			<p style= "text-align: justify;">Setelah kamu mengetahui cara membentuk pola deret aritmetika, kamu perlu memahami cara untuk mencari jumlah dari pola deret tersebut. Deret aritmetika yang memiliki suku sedikit dapat dengan mudah untuk dihitung. Akan tetapi, deret yang memiliki suku banyak akan lebih sulit dan membutuhkan waktu yang tidak cepat. Oleh karena itu, amatilah uraian cara menentukan jumlah n suku pertama deret aritmetika berikut dengan teliti.</p>
+			<br>
+
+			<p style= "text-align: justify;">Misalkan, jumlah n suku pertama suatu deret aritmetika adalah 𝑆𝑛 maka</p>
+			<p style= "text-align: center;">𝑆<sub>𝑛</sub> = 𝑈<sub>1</sub> + 𝑈<sub>2</sub> + 𝑈<sub>3</sub> + ⋯ + 𝑈<sub>𝑛</sub></p>
+			<p style= "text-align: justify;">Seperti yang sudah dipahami sebelumnya bahwa 𝑈<sub>𝑛</sub> = 𝑎 + (𝑛 − 1) 𝑏 maka diperoleh:</p>
+			<p style= "text-align: justify;">𝑆<sub>𝑛</sub> = 𝑎 + (𝑎 + 𝑏) + (𝑎 + 2𝑏) + ⋯ + (𝑎 + (𝑛 − 1)𝑏)</p>
+			<p style= "text-align: justify;">𝑆<sub>𝑛</sub> = (𝑎 + (𝑛 − 1)𝑏) + ⋯ + (𝑎 + 2𝑏) + (𝑎 + 𝑏) + 𝑛</p>
+			<p style= "text-align: justify;">___________________________________________ +</p>
+			<p style= "text-align: justify;">2𝑆<sub>𝑛</sub> = (2𝑎 + (𝑛 − 1)𝑏) + 2𝑎 + (𝑛 − 1)𝑏) + ... + 2𝑎 + (𝑛 − 1)𝑏)</p>
+			<p style= "text-align: justify;">𝑆<sub>𝑛</sub> = 𝑛 ((2𝑎 + (𝑛 − 1)𝑏)/2)</p>
+			<p style= "text-align: justify;">𝑆<sub>𝑛</sub> = 𝑛/2 (2𝑎 + (𝑛 − 1)𝑏)</p>
+			<br>
+
+			<p style= "text-align: justify;">Oleh karena 𝑈<sub>𝑛</sub> = 𝑎 + (𝑛 − 1) 𝑏 maka dapat diperoleh rumus sebagai berikut.</p>
+			<p style= "text-align: justify;">𝑆<sub>𝑛</sub> = 𝑛/2 (2𝑎 + (𝑛 − 1)𝑏) = 𝑛/2 (𝑎 +  𝑈𝑛)</p>
+			<br>
+
+			<p style= "text-align: justify;">Dapat disimpulkan rumus pada deret aritmetika yaitu:</p>
+			<div class="RumusDeretAritmetika"><strong>𝑆<sub>𝑛</sub> = 𝑛/2 (2𝑎 + (𝑛 − 1)𝑏) = 𝑛/2 (𝑎 +  𝑈𝑛)</strong></div>
+			<br>
+			
+			<p style= "text-align: justify;">Untuk memahaminya lebih lanjut, perhatikanlah contoh deret aritmetika berikut</p>
+			<br>
+			<hr>
+			<br>
+
+			<h3>CONTOH SOAL</h3>
+			<br>
+			<ol style="margin-left: 15px;" type="1">
+				<li>Suatu deret aritmetika memiliki pola sebagai berikut.</li>
+				<p>17 + 21 + 25 + 29 + ⋯ + 𝑈<sub>13</sub></p>
+				<p>Tentukan:</p>
+				<ol style="margin-left: 17px;" type="a">
+					<li>Suku ketiga belas (𝑈<sub>13</sub>)</li>
+					<li>Jumlah delapan suku pertama (𝑆<sub>8</sub>)</li>
+				</ol>
+			</ol>
+				<p style="margin-left: 15px;"><strong>Jawab:</strong></p>
+				<p style="margin-left: 15px;">Diketahui 𝑎 = 17 dan 𝑏 = 4</p>
+				<ol style="margin-left: 35px;" type="a">
+					<li>𝑈<sub>13</sub> = 𝑎 + (𝑛 − 1)𝑏</li>
+					<p>𝑈<sub>13</sub> = 17 + (13 − 1) 4</p>
+					<p>𝑈<sub>13</sub> = 65</p>
+					<li>𝑆<sub>8</sub> = 8/2 (2 (17) + (8 - 1)4)</li>
+					<p>𝑆<sub>8</sub> = 4 (34 + 28)</p>
+					<p>𝑆<sub>8</sub> = 248</p>
+				</ol>
+			
+			<br>
+			<hr>
+			<br>
+
+			<p style= "text-align: justify;">Berikut merupakan sifat-sifat dari suatu deret aritmetika.</p>
+			<ul style= "text-align: justify; margin-left: 17px;">
+				<li>Jika diketahui deret aritmetika berpola 𝑈<sub>1</sub> + 𝑈<sub>2</sub> + 𝑈<sub>3</sub> + … + 𝑈<sub>𝑛</sub> maka berlaku:</li>
+				<ul style="margin-left: 17px;" type="1">
+					<li>𝑈<sub>2</sub> – 𝑈<sub>1</sub> = 𝑈<sub>3</sub> – 𝑈<sub>2</sub> = 𝑈<sub>4</sub> − 𝑈<sub>3</sub> = … = 𝑈<sub>𝑛</sub> − 𝑈<sub>𝑛−1</sub></li>
+					<li>𝑈<sub>2</sub> = 𝑈<sub>1</sub> + 𝑈<sub>3</sub></li>
+				</ul>
+				<li>Jika 𝑈<sub>𝑚</sub> dan 𝑈<sub>𝑛</sub> adalah suku-suku deret aritmetika maka:</li>
+				<p>𝑈<sub>𝑚</sub> = 𝑈<sub>𝑛</sub> + (𝑚 − 𝑛)𝑏</p>
+			</ul>
+			<br>
+			<hr>
+
+			</div>
+		</div>
+	</section>
+
+	<script>
+		let arrow = document.querySelectorAll(".arrow");
+		for (var i = 0; i < arrow.length; i++) {
+			arrow[i].addEventListener("click", (e)=>{
+		let arrowParent = e.target.parentElement.parentElement;
+		arrowParent.classList.toggle("showMenu");
+		});
+		}
+
+		let sidebar = document.querySelector(".sidebar");
+		let sidebarBtn = document.querySelector(".bx-menu");
+		console.log(sidebarBtn)
+		sidebarBtn.addEventListener("click", ()=>{
+			sidebar.classList.toggle("close");
+		});
+	</script>
+
+	<footer>
+		<div class="container">
+			<small>Copyright &copy; 2022 - Asma</small>
+		</div>
+	</footer>
+
+</body>
+</html>

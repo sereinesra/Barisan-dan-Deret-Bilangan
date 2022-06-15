@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Barisan dan Deret Bilangan</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!--Boxiocns CDN Link-->
+	<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<style type="text/css">
+	.IstilahBarisanBilangan{
+				width: 90%;
+				height: 40px;
+				background: lightgrey;
+				text-align: justify;
+				padding: 10px;
+				border-left: 2px double black;
+				border-right: 2px double black;
+				border-top: 2px double black;
+			}
+			.IstilahBB1{
+				width: 90%;
+				height: 40px;
+				background: lightgrey;
+				text-align: justify;
+				padding: 10px;
+				border-left: 2px double black;
+				border-right: 2px double black;
+			}
+			.IstilahBB2{
+				width: 90%;
+				height: 40px;
+				background: lightgrey;
+				text-align: justify;
+				padding: 10px;
+				border-left: 2px double black;
+				border-right: 2px double black;
+			}
+			.IstilahBB3{
+				width: 90%;
+				height: 40px;
+				background: lightgrey;
+				text-align: justify;
+				padding: 10px;
+				border-left: 2px double black;
+				border-right: 2px double black;
+			}
+			.IstilahBB4{
+				width: 90%;
+				height: 40px;
+				background: lightgrey;
+				text-align: justify;
+				padding: 10px;
+				border-left: 2px double black;
+				border-right: 2px double black;
+				border-bottom: 2px double black;
+			}
+			.RumusBarisanAritmetika{
+				width: 40%;
+				height: 40px;
+				background: lightgrey;
+				text-align: center;
+				padding: 5px;
+			}
+			.BarisanArit{
+				float: left;
+				margin-right: 50px;
+			}
+			.hapus-float{
+				clear: both;
+			}
+</style>
+
+<body style="background: lightcyan; margin-left: 425px; margin-right: 100px; margin-bottom: 100px;">
+		<div class="sidebar">
+		<div class="logo-details">
+			<i class='bx bxs-component'></i>
+			<span class="logo_name">Barisan dan Deret Bilangan</span>
+		</div>
+		<ul class="nav-links">
+			<li>
+				<a href="BarisanDeretBilangan.html">
+					<i class='bx bxs-home-alt-2'></i>
+					<span class="link_name">Beranda</span>
+				</a>
+				<ul class="sub-menu blank">
+					<li><a class="link_name" href="BarisanDeretBilangan.html">Beranda</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="tujuanpembelajaran.html">
+					<i class='bx bxs-message-dots'></i>
+					<span class="link_name">Tujuan Pembelajaran</span>
+				</a>
+				<ul class="sub-menu blank">
+					<li><a class="link_name" href="tujuanpembelajaran.html">Tujuan Pembelajaran</a></li>
+				</ul>
+			</li>
+			<li>
+				<div class="iocn-link">
+					<a href="polabilangan.html">
+						<i class='bx bxs-pie-chart-alt-2'></i>
+						<span class="link_name">Bab I: Pola Bilangan</span>
+					</a>
+					<i class='bx bxs-chevron-down arrow'></i>
+				</div>
+				<ul class="sub-menu">
+					<li><a class="link_name" href="polabilangan.html">Pola Bilangan</a></li>
+					<li><a href="polabilanganganjil.html">Pola Bilangan Ganjil</a></li>
+					<li><a href="polabilangangenap.html">Pola Bilangan Genap</a></li>
+					<li><a href="polabilanganpersegi.html">Pola Bilangan Persegi</a></li>
+					<li><a href="polabilanganpersegipanjang.html">Pola Bilangan Persegi Panjang</a></li>
+					<li><a href="polabilangansegitiga.html">Pola Bilangan Segitiga</a></li>
+					<li><a href="polabilanganfibonacci.html">Pola Bilangan Fibonacci</a></li>
+					<li><a href="latihanpola.html">Latihan</a></li>
+				</ul>
+			</li>
+			<li>
+				<div class="iocn-link">
+					<a href="barisanbilangan.html">
+						<i class='bx bxs-bar-chart-alt-2' ></i>
+						<span class="link_name">Bab II: Barisan Bilangan</span>
+					</a>
+					<i class='bx bxs-chevron-down arrow'></i>
+				</div>
+				<ul class="sub-menu">
+					<li><a class="link_name" href="barisanbilangan.html">Barisan Bilangan</a></li>
+					<li><a href="barisanaritmetika.html">Barisan Aritmetika</a></li>
+					<li><a href="barisangeometri.html">Barisan Geometri</a></li>
+					<li><a href="latihanbarisan.html">Latihan</a></li>
+				</ul>
+			</li>
+			<li>
+				<div class="iocn-link">
+					<a href="deretbilangan.html">
+						<i class='bx bxs-chart'></i>
+						<span class="link_name">Bab III: Deret Bilangan</span>
+					</a>
+					<i class='bx bxs-chevron-down arrow'></i>
+				</div>
+				<ul class="sub-menu">
+					<li><a class="link_name" href="deretbilangan.html">Deret Bilangan</a></li>
+					<li><a href="deretaritmetika.html">Deret Aritmetika</a></li>
+					<li><a href="deretgeometri.html">Deret Geometri</a></li>
+					<li><a href="latihanderet.html">Latihan</a></li>
+				</ul>
+			</li>
+			<li>
+				<div class="iocn-link">
+					<a href="videopembelajaran.html">
+						<i class='bx bxs-video'></i>
+						<span class="link_name">Video</span>
+					</a>
+					<i class='bx bxs-chevron-down arrow'></i>
+				</div>
+				<ul class="sub-menu">
+					<li><a class="link_name" href="videopembelajaran.html">Video</a></li>
+					<li><a href="videopola.html">Pola Bilangan</a></li>
+					<li><a href="videoaritmetika.html">Barisan dan Deret Aritmetika</a></li>
+					<li><a href="videogeometri.html">Barisan dan Deret Geometri</a></li>
+				</ul>
+			</li>
+			<li>
+				<div class="iocn-link">
+					<a href="rangkuman.html">
+						<i class='bx bx-file-find'></i>
+						<span class="link_name">Rangkuman</span>
+					</a>
+					<i class='bx bxs-chevron-down arrow'></i>
+				</div>
+				<ul class="sub-menu">
+					<li><a class="link_name" href="rangkuman.html">Rangkuman</a></li>
+					<li><a href="rangkumanpola.html">Pola Bilangan</a></li>
+					<li><a href="rangkumanbarisan.html">Barisan Bilangan</a></li>
+					<li><a href="rangkumanderet.html">Deret Bilangan</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="penerapan.html">
+					<i class='bx bxs-notepad'></i>
+					<span class="link_name">Penerapan</span>
+				</a>
+				<ul class="sub-menu blank">
+					<li><a class="link_name" href="penerapan.html">Penerapan</a></li>
+				</ul>
+			</li>
+			<li>
+				<div class="iocn-link">
+					<a href="evaluasi.html">
+						<i class='bx bx-navigation'></i>
+						<span class="link_name">Evaluasi</span>
+					</a>
+					<i class='bx bxs-chevron-down arrow'></i>
+				</div>
+				<ul class="sub-menu">
+					<li><a class="link_name" href="evaluasi.html">Evaluasi</a></li>
+					<li><a href="evaluasipola.html">Pola Bilangan</a></li>
+					<li><a href="evaluasibarisan.html">Barisan Bilangan</a></li>
+					<li><a href="evaluasideret.html">Deret Bilangan</a></li>
+				</ul>
+			</li>
+		</ul>
+		<li>
+		<div class="profile-details">
+			<div class="profile-content">
+				<img src="Asma.jpg" alt="profile ">
+			</div>
+			<div class="name-departmen">
+				<div class="profile_name">Asma</div>
+				<div class="departmen">Pendidikan Matematika</div>
+			</div>
+			<i class='bx bx-log-out'></i>
+		</div>
+		</li>
+	</div>
+
+	<section class="home-section">
+		<div class="home-content">
+			<i class='bx bx-menu'></i>
+			<span class="text"></span>
+		</div>
+	</section>
+
+	<script>
+		let arrow = document.querySelectorAll(".arrow");
+		for (var i = 0; i < arrow.length; i++) {
+			arrow[i].addEventListener("click", (e)=>{
+		let arrowParent = e.target.parentElement.parentElement;
+		arrowParent.classList.toggle("showMenu");
+		});
+		}
+
+		let sidebar = document.querySelector(".sidebar");
+		let sidebarBtn = document.querySelector(".bx-menu");
+		console.log(sidebarBtn)
+		sidebarBtn.addEventListener("click", ()=>{
+			sidebar.classList.toggle("close");
+		});
+	</script>
+
+	<!--Beranda-->
+	<section id="beranda">
+		<div class="container">
+			<div class="col-3">
+		<br>
+			<h2 style="text-align: center;">BARISAN ARITMETIKA</h2>
+		<br>
+		<p style="text-align: justify;">Pernahkah kamu menabung uang di koperasi sekolah? Jika kamu menabung pada minggu pertama berjumlah Rp10.000,00, minggu kedua berjumlah Rp15.000,00, minggu ketiga berjumlah Rp20.000,00, dan tiap minggu setelahnya bertambah Rp5.000,00. Berapa tabunganmu pada minggu kesepuluh? Dapatkah kamu mengetahuinya dengan menggunakan konsep barisan aritmetika? Simak materi berikut</p>
+		<br>
+		<p style="text-align: justify;">Barisan bilangan pertama yaitu barisan aritmetika. Barisan aritmetika adalah barisan bilangan yang memiliki selisih atau <strong>beda</strong> yang sama antara dua suku barisan yang berurutansehingga membentuk pola yang tetap.</p>
+		<br>
+		<p>Perhatikan gambar berikut.</p>
+		<div class="hapus-float"></div>
+		<img class="BarisanArit" src="Barisan Aritmetika.png" width="300px">
+		<p style="font-size: smaller;" class="hapus-float">Gambar 3. 1 Barisan Aritmetika</p>
+		<br>
+		<p style="text-align: justify;">Barisan bilangan di atas memiliki beda 3 antara dua suku yang berurutan. Perlu diperhatikan, beda pada barisan aritmetika haruslah sama. Apabila selisihnya berbeda, maka tidak termasuk barisan aritmetika.</p>
+		<br>
+		<p style="text-align: justify;">Dari uraian di atas, didapat bahwa pada barisan aritmetika terdapat istilah yang harus selalu diingat, yaitu beda. Untuk itu, ingtalah istilah-istilah berikut.</p>
+		<br>
+		<div style="text-align: center;" class="IstilahBarisanBilangan"><strong>ISTILAH PADA BARISAN BILANGAN</strong></div>
+		<div class="IstilahBB1">- Urutan bilangan = Suku, dilambangkan dengan 𝑈</div>
+		<div class="IstilahBB2">- Urutan bilangan ke-𝑛 = Suku ke-𝑛, Dilambangkan dengan 𝑈𝑛</div>
+		<div class="IstilahBB3">- Suku pertama, dilambangkan dengan a</div>
+		<div class="IstilahBB4">- Selisih atau beda, dilambangkan dengan 𝑏</div>
+		<br>
+
+		<p style="text-align: justify;">Barisan aritmetika terdiri dari dua jenis, yaitu barisan aritmetika naik dan barisan aritmetika turun. Barisan aritmetika naik didefinisikan sebagai barisan yang memiliki beda bernilai positif. Sebaliknya, barisan yang memiliki beda bernilai negatif disebut sebagai barisan aritmetika turun.</p>
+		<br>
+		<hr>
+		<br>
+
+		<h3>CONTOH SOAL</h3>
+		<br>
+		<ol style="text-align: justify; margin-left: 15px;" type="1">
+			<li>21, 23, 25, 27, 29 merupakan barisan aritmetika jenis …
+				<p><strong>Jawab:</strong></p>
+				<p>Pola tersebut merupakan barisan aritmetika naik karena bedanya bernilai positif 2.</p></li>
+			<li>Tentukan jenis barisan aritmetika dari pola berikut: 8, 5, 2, −1, −4
+				<p><strong>Jawab:</strong></p>
+				<p>Pola tersebut memiliki beda -3 sehingga termasuk barisan aritmetika turun.
+				</p></li>
+		</ol>
+		<br>
+		<hr>
+
+		<br>
+		<p style="text-align: justify;">Untuk mencari suku ke-n dari suatu barisan aritmetika, kamu dapat menggunakan rumus berikut.</p>
+		<div class="RumusBarisanAritmetika">𝑼𝒏 = 𝒂 + (𝒏 – 𝟏) 𝒏</div>
+		<br>
+		<hr>
+		<br>
+		<h3>CONTOH SOAL</h3>
+		<br>
+		<ol style="text-align: justify; margin-left: 15px;" type="1">
+			<li>Suatu barisan aritmetika memiliki pola yaitu 37, 45, 53, 61, 69, 77
+			<p>Tentukan:</p></li>
+			<ol style="margin-left: 17px;" type="a">
+			<li>𝑎</li>
+			<li>𝑏</li>
+			<li>Suku ke-5</li>
+			<li>Suku ke-10</li>
+			<br>
+		</ol>
+			<p><b>Jawab:</b></p>
+			<ol style="margin-left: 17px;" type="a">
+				<li>𝑎 = suku pertama = 37</li>
+				<li>𝑏 = 45 – 37 = 8</li>
+				<li>𝑈<sub>5</sub> = 61</li>
+				<li>𝑈<sub>10</sub> = 𝑎 + (𝑛 − 1) 𝑏</li>
+					<p>𝑈<sub>10</sub> = 37 + (10 − 1) 8</p>
+					<p>𝑈<sub>10</sub> = 37 + (9) 8</p>
+					<p>𝑈<sub>10</sub> = 37 + 72</p>
+					<p>𝑈<sub>10</sub> = 109</p>
+				</ol>
+			</ol>
+		<br>
+		<hr>
+			</div>
+		</div>
+	</section>
+
+	<script>
+		let arrow = document.querySelectorAll(".arrow");
+		for (var i = 0; i < arrow.length; i++) {
+			arrow[i].addEventListener("click", (e)=>{
+		let arrowParent = e.target.parentElement.parentElement;
+		arrowParent.classList.toggle("showMenu");
+		});
+		}
+
+		let sidebar = document.querySelector(".sidebar");
+		let sidebarBtn = document.querySelector(".bx-menu");
+		console.log(sidebarBtn)
+		sidebarBtn.addEventListener("click", ()=>{
+			sidebar.classList.toggle("close");
+		});
+	</script>
+
+	<footer>
+		<div class="container">
+			<small>Copyright &copy; 2022 - Asma</small>
+		</div>
+	</footer>
+</body>
+</html>
+
+		

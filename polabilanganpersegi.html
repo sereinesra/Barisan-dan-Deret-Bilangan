@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Barisan dan Deret Bilangan</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!--Boxiocns CDN Link-->
+	<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<style>
+			.PolaPersegi{
+				float: left;
+			}
+			.hapus-float{
+				clear: both;
+			}
+			.RumusPolaPersegi{
+				width: 15%;
+				height: 35px;
+				background: lightgrey;
+				text-align: center;
+				padding: 5px;
+			}
+</style>
+<body style="background: lightcyan; margin-left: 425px; margin-right: 100px; margin-bottom: 100px;">
+		<div class="sidebar">
+		<div class="logo-details">
+			<i class='bx bxs-component'></i>
+			<span class="logo_name">Barisan dan Deret Bilangan</span>
+		</div>
+		<ul class="nav-links">
+			<li>
+				<a href="BarisanDeretBilangan.html">
+					<i class='bx bxs-home-alt-2'></i>
+					<span class="link_name">Beranda</span>
+				</a>
+				<ul class="sub-menu blank">
+					<li><a class="link_name" href="BarisanDeretBilangan.html">Beranda</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="tujuanpembelajaran.html">
+					<i class='bx bxs-message-dots'></i>
+					<span class="link_name">Tujuan Pembelajaran</span>
+				</a>
+				<ul class="sub-menu blank">
+					<li><a class="link_name" href="tujuanpembelajaran.html">Tujuan Pembelajaran</a></li>
+				</ul>
+			</li>
+			<li>
+				<div class="iocn-link">
+					<a href="polabilangan.html">
+						<i class='bx bxs-pie-chart-alt-2'></i>
+						<span class="link_name">Bab I: Pola Bilangan</span>
+					</a>
+					<i class='bx bxs-chevron-down arrow'></i>
+				</div>
+				<ul class="sub-menu">
+					<li><a class="link_name" href="polabilangan.html">Pola Bilangan</a></li>
+					<li><a href="polabilanganganjil.html">Pola Bilangan Ganjil</a></li>
+					<li><a href="polabilangangenap.html">Pola Bilangan Genap</a></li>
+					<li><a href="polabilanganpersegi.html">Pola Bilangan Persegi</a></li>
+					<li><a href="polabilanganpersegipanjang.html">Pola Bilangan Persegi Panjang</a></li>
+					<li><a href="polabilangansegitiga.html">Pola Bilangan Segitiga</a></li>
+					<li><a href="polabilanganfibonacci.html">Pola Bilangan Fibonacci</a></li>
+					<li><a href="latihanpola.html">Latihan</a></li>
+				</ul>
+			</li>
+			<li>
+				<div class="iocn-link">
+					<a href="barisanbilangan.html">
+						<i class='bx bxs-bar-chart-alt-2' ></i>
+						<span class="link_name">Bab II: Barisan Bilangan</span>
+					</a>
+					<i class='bx bxs-chevron-down arrow'></i>
+				</div>
+				<ul class="sub-menu">
+					<li><a class="link_name" href="barisanbilangan.html">Barisan Bilangan</a></li>
+					<li><a href="barisanaritmetika.html">Barisan Aritmetika</a></li>
+					<li><a href="barisangeometri.html">Barisan Geometri</a></li>
+					<li><a href="latihanbarisan.html">Latihan</a></li>
+				</ul>
+			</li>
+			<li>
+				<div class="iocn-link">
+					<a href="deretbilangan.html">
+						<i class='bx bxs-chart'></i>
+						<span class="link_name">Bab III: Deret Bilangan</span>
+					</a>
+					<i class='bx bxs-chevron-down arrow'></i>
+				</div>
+				<ul class="sub-menu">
+					<li><a class="link_name" href="deretbilangan.html">Deret Bilangan</a></li>
+					<li><a href="deretaritmetika.html">Deret Aritmetika</a></li>
+					<li><a href="deretgeometri.html">Deret Geometri</a></li>
+					<li><a href="latihanderet.html">Latihan</a></li>
+				</ul>
+			</li>
+			<li>
+				<div class="iocn-link">
+					<a href="">
+						<i class='bx bxs-video'></i>
+						<span class="link_name">Video</span>
+					</a>
+					<i class='bx bxs-chevron-down arrow'></i>
+				</div>
+				<ul class="sub-menu">
+					<li><a class="link_name" href="">Video</a></li>
+					<li><a href="videopola.html">Pola Bilangan</a></li>
+					<li><a href="videoaritmetika.html">Barisan dan Deret Aritmetika</a></li>
+					<li><a href="videogeometri.html">Barisan dan Deret Geometri</a></li>
+				</ul>
+			</li>
+			<li>
+				<div class="iocn-link">
+					<a href="">
+						<i class='bx bx-file-find'></i>
+						<span class="link_name">Rangkuman</span>
+					</a>
+					<i class='bx bxs-chevron-down arrow'></i>
+				</div>
+				<ul class="sub-menu">
+					<li><a class="link_name" href="">Rangkuman</a></li>
+					<li><a href="rangkumanpola.html">Pola Bilangan</a></li>
+					<li><a href="rangkumanbarisan.html">Barisan Bilangan</a></li>
+					<li><a href="rangkumanderet.html">Deret Bilangan</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="penerapan.html">
+					<i class='bx bxs-notepad'></i>
+					<span class="link_name">Penerapan</span>
+				</a>
+				<ul class="sub-menu blank">
+					<li><a class="link_name" href="penerapan.html">Penerapan</a></li>
+				</ul>
+			</li>
+			<li>
+				<div class="iocn-link">
+					<a href="">
+						<i class='bx bx-navigation'></i>
+						<span class="link_name">Evaluasi</span>
+					</a>
+					<i class='bx bxs-chevron-down arrow'></i>
+				</div>
+				<ul class="sub-menu">
+					<li><a class="link_name" href="">Evaluasi</a></li>
+					<li><a href="evaluasipola.html">Pola Bilangan</a></li>
+					<li><a href="evaluasibarisan.html">Barisan Bilangan</a></li>
+					<li><a href="evaluasideret.html">Deret Bilangan</a></li>
+				</ul>
+			</li>
+		</ul>
+		<li>
+		<div class="profile-details">
+			<div class="profile-content">
+				<img src="Asma.jpg" alt="profile ">
+			</div>
+			<div class="name-departmen">
+				<div class="profile_name">Asma</div>
+				<div class="departmen">Pendidikan Matematika</div>
+			</div>
+			<i class='bx bx-log-out'></i>
+		</div>
+		</li>
+	</div>
+
+	<section class="home-section">
+		<div class="home-content">
+			<i class='bx bx-menu'></i>
+			<span class="text"></span>
+		</div>
+	</section>
+
+	<script>
+		let arrow = document.querySelectorAll(".arrow");
+		for (var i = 0; i < arrow.length; i++) {
+			arrow[i].addEventListener("click", (e)=>{
+		let arrowParent = e.target.parentElement.parentElement;
+		arrowParent.classList.toggle("showMenu");
+		});
+		}
+
+		let sidebar = document.querySelector(".sidebar");
+		let sidebarBtn = document.querySelector(".bx-menu");
+		console.log(sidebarBtn)
+		sidebarBtn.addEventListener("click", ()=>{
+			sidebar.classList.toggle("close");
+		});
+	</script>
+
+	<!--Beranda-->
+	<section id="beranda">
+		<div class="container">
+			<div class="col-3">
+				<br>
+		<h2 style="text-align: center;">POLA BILANGAN PERSEGI</h2>
+		<br>
+		<p style="text-align: justify;">Selain dapat membentuk pola bilangan ganjil dan genap, pola bilangan pada matematika juga dapat membentuk pola persegi. Amati pola bilangan persegi pada gambar berikut.</p>
+		<img class="float-kiri" src="Pola Bilangan Persegi.png" width="200px">
+		<p class="hapus-float" style="font-size: smaller;">Gambar 2. 3 Pola Bilangan Persegi</p>
+		<br>
+		<p style="text-align: justify;">Dari gambar pola persegi di atas, dapatkah kamu mengetahui bagaimana rumus pola yang terbentuk?</p>
+		<br>
+		<p style="text-align: justify;">Perhatikanlah tabel di bawah ini untuk mengetahui rumus pola bilangan persegi yang terbentuk.</p>
+		<br>
+		<p style ="text-align: center; font-size: smaller;">Tabel 2. 2</p>
+		<table style="text-align: center; font-size: smaller; margin-left: 183px;" align="center" border="1" width="300px">
+			<thead>
+				<tr>
+					<th>𝑈<sub>n</sub></th>
+					<th>Nilai</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+				<td>𝑈<sub>1</sub></td>
+				<td>1 = 1<sup>2</sup></td>
+				</tr> 
+				<tr>
+				<td>𝑈<sub>2</sub></td>
+				<td>4 = 2<sup>2</sup></td>
+				</tr>
+				<tr>
+				<td>𝑈<sub>3</sub></td>
+				<td>9 = 3<sup>2</sup></td>
+				</tr>
+				<tr>
+				<td>𝑈<sub>4</sub></td>
+				<td>16 = 4<sup>2</sup></td>
+				</tr>
+				<tr>
+				<td>...</td>
+				<td>...</td>
+				</tr>
+				<tr>
+				<td>𝑈<sub>n</sub></td>
+				<td>n<sup>2</sup></td>
+				</tr>
+			</tbody>
+		</table>
+		<br>
+
+		<p style="text-align: justify;">Berdasarkan analisis pada tabel di atas, didapat rumus pola persegi yaitu:</p>
+		<div class="RumusPolaPersegi"><strong>𝑈<sub>n</sub> = 𝒏<sup>2</sup></strong></div>
+		<br>
+		<hr>
+		<br>
+		
+		<h3>CONTOH SOAL</h3>
+		<br>
+		<ol type="1">
+			<li style="margin-left: 15px;">Perhatikan gambar pola di bawah ini!</li>
+			<p style="margin-left: 15px;">Dengan menggunakan rumus pola bilangan persegi, hitunglah 3 pola setelahnya.</p>
+			<img src="2. 4.png" width="200px" style="margin-left: 15px;">
+			<p style="font-size: smaller; margin-left: 15px;">Gambar 2. 4 Pola Persegi</p>
+			<p style="margin-left: 17px;"><b>Jawab:</b></p>
+			<ul style="margin-left: 35px;">
+		<li>𝑈<sub>n</sub> = 𝑛<sup>2</sup>
+			<p>𝑈<sub>5</sub> = 5<sup>2</sup></p>
+			<p>𝑈<sub>5</sub> = 25</p>
+		<li>𝑈<sub>n</sub> = 𝑛<sup>2</sup>
+			<p>𝑈<sub>6</sub> = 6<sup>2</sup></p>
+			<p>𝑈<sub>6</sub> = 36</p></li>
+		<li>𝑈<sub>n</sub> = 𝑛<sup>2</sup>
+			<p>𝑈<sub>7</sub> = 7<sup>2</sup></p>
+			<p>𝑈<sub>7</sub> = 49</p></li>
+			</ul>
+		</ol>
+		<br>
+		<hr>
+			</div>
+		</div>
+	</section>
+
+	<script>
+		let arrow = document.querySelectorAll(".arrow");
+		for (var i = 0; i < arrow.length; i++) {
+			arrow[i].addEventListener("click", (e)=>{
+		let arrowParent = e.target.parentElement.parentElement;
+		arrowParent.classList.toggle("showMenu");
+		});
+		}
+
+		let sidebar = document.querySelector(".sidebar");
+		let sidebarBtn = document.querySelector(".bx-menu");
+		console.log(sidebarBtn)
+		sidebarBtn.addEventListener("click", ()=>{
+			sidebar.classList.toggle("close");
+		});
+	</script>
+
+	<footer>
+		<div class="container">
+			<small>Copyright &copy; 2022 - Asma</small>
+		</div>
+	</footer>
+
+</body>
+</html>
+
+
+
+	
